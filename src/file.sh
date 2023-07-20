@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Get the word to search for from the user
 echo -n "Enter a word to search for: "
 read word
 
@@ -12,6 +11,5 @@ if [ -n "$paragraph" ]; then
     # Print the paragraph containing the word
     echo "$paragraph"
 else
-    # Print a message saying the word was not found
     echo "The word '$word' was not found in the news file."
 fi
